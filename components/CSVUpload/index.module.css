@@ -1,0 +1,41 @@
+.csv_upload {
+  padding: 2rem 3rem;
+  width: 100%;
+  height: calc(100vh - 86px);
+  overflow: scroll;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  background: #3d5388;
+  box-shadow: 0px 2px 2px rgba(61, 83, 136, 0.25);
+  border-radius: 6px;
+  color: #eaecfa;
+  gap: 8px;
+  margin-top: 16px;
+}
+.sendMainButton {
+  padding: 8px 12px;
+  background: #3d5388;
+  box-shadow: 0px 2px 2px rgba(61, 83, 136, 0.25);
+  border-radius: 6px;
+  color: #eaecfa;
+  margin-top: 16px;
+}
+
+.fileUploadArea {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.accordion {
+  margin-bottom: 32px;
+}
+
+.resultArea {
+  text-align: center;
+}
